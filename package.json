@@ -1,0 +1,20 @@
+{
+  "name": "pretty-paste",
+  "version": "1.0.0",
+  "description": "Prettify your clipboard and then paste it",
+  "main": "index.js",
+  "repository": "https://github.com/seanghay/pretty-paste.git",
+  "author": "Seanghay Yath",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "global": "^4.4.0",
+    "lodash": "^4.17.15",
+    "prettier": "^2.0.4",
+    "pretty-paste": "^1.0.0"
+  },
+  "bin": {
+    "pp": "./bin/pp"
+  }
+}
