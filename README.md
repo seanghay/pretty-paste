@@ -6,7 +6,7 @@
 
 Prettify your clipboard and then paste it
 
-I will use your clipboard data and format it and put it back on your clipboard then you can paste it anywhere.
+It will use your clipboard data and format it and put it back on your clipboard then you can paste it anywhere.
 
 
 #### Installation
