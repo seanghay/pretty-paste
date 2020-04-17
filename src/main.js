@@ -2,7 +2,11 @@ const clipboardy = require('clipboardy');
 const prettier = require('prettier');
 const _ = require('lodash');
 const fs = require('fs');
-const packageInfo = JSON.parse(fs.readFileSync('package.json'), 'utf8');
+const path = require('path');
+
+const packagePath = path.join(__dirname, '..', 'package.json');
+
+const packageInfo = JSON.parse(fs.readFileSync(packagePath), 'utf8');
 
 const languages = _.uniq(_.flatMap(prettier.getSupportInfo().languages.map(it => it.parsers)));
 
