@@ -1,17 +1,23 @@
-# Pretty Paste
+## Pretty Paste
 
 Prettify your clipboard and then paste it
 
-## Installation
+#### Installation
 
-`npm i -g pretty-paste`
+```sh
+npm i -g pretty-paste
+```
 
-## Usage
+#### Usage
 
 For json clipboard
 
-`pp json`
+```sh
+pp json
+```
 
-### Show supported languages
+#### Show supported languages
 
-`pp ls`
+```sh
+pp ls
+```
