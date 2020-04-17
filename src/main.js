@@ -4,15 +4,13 @@ const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
 
-const packagePath = path.join(__dirname, '..', 'package.json');
-
-const packageInfo = JSON.parse(fs.readFileSync(packagePath), 'utf8');
 
 const languages = _.uniq(_.flatMap(prettier.getSupportInfo().languages.map(it => it.parsers)));
 
 const args = process.argv;
 
 function printInfo(i, prefix = '', spacing = '') {
+    if (!i) return;
     console.log(_.startCase(prefix));
     Object.keys(i).forEach(key => {
         const v = i[key];
@@ -35,6 +33,8 @@ if (args.length >= 3) {
     }
 
     if (lang.toLocaleLowerCase() === 'info') {
+        const packagePath = path.join(__dirname, '..', 'package.json');
+        const packageInfo = JSON.parse(fs.readFileSync(packagePath), 'utf8');
         printInfo(packageInfo);
         return;
     }

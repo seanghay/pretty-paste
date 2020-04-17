@@ -1,6 +1,6 @@
 {
   "name": "pretty-paste",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Prettify your clipboard and then paste it directly",
   "main": "index.js",
   "repository": "https://github.com/seanghay/pretty-paste.git",
