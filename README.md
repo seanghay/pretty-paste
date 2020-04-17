@@ -1,6 +1,10 @@
 ## Pretty Paste
+![npm](https://github.com/seanghay/pretty-paste/workflows/npm/badge.svg)
+![Npm Version](https://img.shields.io/npm/v/pretty-paste.svg)
 
 Prettify your clipboard and then paste it
+
+I will use your clipboard data and format it and put it back on your clipboard then you can paste it anywhere.
 
 #### Installation
 
@@ -10,14 +14,33 @@ npm i -g pretty-paste
 
 #### Usage
 
-For json clipboard
+For `json` clipboard
 
 ```sh
 pp json
 ```
 
-#### Show supported languages
+#### Supported languages
 
 ```sh
 pp ls
 ```
+
+* babel
+* flow
+* typescript
+* babel-ts
+* json-stringify
+* json
+* json5
+* css
+* less
+* scss
+* graphql
+* markdown
+* mdx
+* angular
+* html
+* lwc
+* vue
+* yaml
