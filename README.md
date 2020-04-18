@@ -1,4 +1,4 @@
-## Pretty Paste
+## Pretty Paste - built with a cup of coffee
 <img align="right" width="450" src="https://raw.githubusercontent.com/seanghay/pretty-paste/master/image1.png">
 
 ![npm](https://github.com/seanghay/pretty-paste/workflows/npm/badge.svg)
