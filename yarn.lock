@@ -83,9 +83,9 @@ isexe@^2.0.0:
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
 lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 min-document@^2.19.0:
   version "2.19.0"
@@ -127,15 +127,6 @@ prettier@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.4.tgz#2d1bae173e355996ee355ec9830a7a1ee05457ef"
   integrity sha512-SVJIQ51spzFDvh4fIbCLvciiDMCrRhlN3mbZvv/+ycjvmF5E73bKdGfU8QDLNmjYJf+lsGnDBC4UUnvTe5OO0w==
-
-pretty-paste@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pretty-paste/-/pretty-paste-1.0.0.tgz#09f5f6ee0bf5864bfc020a3a97ba5e1a604e7355"
-  integrity sha512-Abzi9pay8j+hzKX3DCllmzoc29AH143P4vsmDP+rrQ16AEoOk4TUPh1VtjK2kZxYL1LVuiiOBRBFSVf6bE9EQw==
-  dependencies:
-    clipboardy "^2.3.0"
-    lodash "^4.17.15"
-    prettier "^2.0.4"
 
 process@^0.11.10:
   version "0.11.10"
